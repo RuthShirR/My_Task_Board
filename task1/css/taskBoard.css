@@ -1,0 +1,131 @@
+
+body {
+    font-family: "Mynerve", cursive;
+    background-image: url(../img/tile.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    flex-wrap: wrap;
+  }
+  .container {
+    height: fit-content;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  #title {
+    text-align: center;
+    margin-top: 70px;
+    size: 300px;
+  }
+  h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  #taskForm {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: space-around;
+    background-image: url(../img/formbg.jpg);
+    max-width: 700px;
+  }
+  #time{
+    margin-top: 10px;
+    width: 300px;
+  }
+  #div_btn {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .save_btn {
+    box-shadow: inset 0px 0px 0px 0px #a6827e;
+    background-color: #7d5d3b;
+    border-radius: 12px;
+    border: 3px solid #e8c7a4;
+    display: inline-block;
+    cursor: pointer;
+    color: #e8c7a4;
+    padding: 3px 7px;
+    text-decoration: none;
+  }
+  .save_btn:hover {
+    background-color: #634b30;
+  }
+  .save_btn:active {
+    position: relative;
+    top: 1px;
+  }
+  .reset_btn {
+    box-shadow: inset 0px 0px 0px 0px #a6827e;
+    background-color: #e8c7a4;
+    border-radius: 12px;
+    border: 3px solid #54381e;
+    display: inline-block;
+    cursor: pointer;
+    color: #54381e;
+    padding: 3px 7px;
+    text-decoration: none;
+  }
+  .reset_btn:hover {
+    background-color: #634b30;
+  }
+  .reset_btn:active {
+    position: relative;
+    top: 1px;
+  }
+  #add_Note {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    width: 100%;
+    position: relative;
+  
+    flex-wrap: wrap;
+  }
+  .addP_Note {
+    background-image: url(../img/notebg.png);
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    font-family: "Mynerve", cursive;
+    text-align: center;
+   position: relative;
+   overflow: scroll;
+    flex-wrap: wrap;
+    transition: 1s ease-in all;
+  }
+  .fade-in {
+    opacity: 0;
+  }
+  
+  
+  .dDate {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+  }
+  .myTask {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 25px;
+    bottom: 120px;
+    height: 55%;
+    text-align: center;
+    position: absolute;
+    overflow: scroll;
+    min-height: 20px;
+  }
+  .close-btn{
+    background-color: rgba(255, 222, 173, 0.208);
+    border-radius:42px;
+    border:0;
+    margin-top: 30px;
+    margin-left: 180px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .close-btn:hover{
+    opacity: 1;
+  }
